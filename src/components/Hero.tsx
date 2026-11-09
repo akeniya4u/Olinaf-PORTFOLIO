@@ -120,11 +120,11 @@ export default function Hero({ onOpenCV }: HeroProps) {
                   <img
                     src={personal.avatarImage}
                     alt="Olinaf Tesfaye, Software Engineering student and web developer."
-                    width={400}
-                    height={400}
+                    width={1254}
+                    height={1254}
                     loading="eager"
                     decoding="async"
-                    className="w-full h-full object-cover object-[center_20%] [image-rendering:auto] transform-gpu"
+                    className="w-full h-full object-cover object-[center_22%] select-none"
                     style={{ imageRendering: 'auto' }}
                     referrerPolicy="no-referrer"
                     onError={() => setImageError(true)}
